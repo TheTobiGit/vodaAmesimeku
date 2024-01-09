@@ -3,6 +3,7 @@
     <div class="">
       <div class="w-screen">
         <slot />
+        <Footer />
       </div>
     </div>
   </div>
