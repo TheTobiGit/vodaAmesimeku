@@ -1,6 +1,6 @@
 <template>
-  <div class="h-screen flex justify-center items-center">
-    <p>Bundles no dey rydee</p>
+  <div class="h-[90svh] flex justify-center items-center">
+    <p class="text-red-500 text-4xl text-center">Bundles no dey rydee 🫤</p>
   </div>
 </template>
 

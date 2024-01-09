@@ -1,6 +1,9 @@
 <template>
   <Header />
-  <div v-if="layoutType" class="p-4 flex flex-col gap-5 bg-gray-50">
+  <div
+    v-if="layoutType"
+    class="p-4 flex flex-col gap-5 bg-gray-50 min-h-[75svh]"
+  >
     <div class="w-full border bg-[#f8f8f8] rounded-md p-2 flex flex-col gap-5">
       <Icon name="ion:radio-waves" color="red" size="2rem" />
       <div class="w-full h-3 rounded-md bg-[#d9d9d9]">
@@ -116,7 +119,7 @@
     </div>
   </div>
 
-  <div v-else class="p-4 flex flex-col gap-5">
+  <div v-else class="p-4 flex flex-col gap-5 min-h-[75svh]">
     <div class="w-full flex justify-between mb-3 flex-wrap gap-4">
       <div
         class="border rounded-md w-[46%] p-2 flex flex-col gap-10 bg-[#f8f8f8]"
